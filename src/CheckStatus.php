@@ -1,6 +1,6 @@
 <?php
 
-namespace Alahaxe\HealthCheckBundle\Contracts;
+namespace Alahaxe\HealthCheck\Contracts;
 
 use Alahaxe\HealthCheck\Contracts\CheckStatusInterface;
 use Symfony\Component\HttpFoundation\Response;
