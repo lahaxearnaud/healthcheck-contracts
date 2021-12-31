@@ -1,0 +1,21 @@
+{
+    "name": "alahaxe/healthcheck-contracts",
+    "description": "Extensible healthcheck contracts",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alahaxe\\HealthCheck\\Contracts": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LAHAXE Arnaud",
+            "email": "lahaxe.arnaud@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*"
+    }
+}
