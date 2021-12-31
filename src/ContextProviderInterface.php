@@ -1,6 +1,6 @@
 <?php
 
-namespace Alahaxe\HealthCheckBundle\Contract;
+namespace Alahaxe\HealthCheck\Contracts;
 
 interface ContextProviderInterface
 {
