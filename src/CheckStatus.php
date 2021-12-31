@@ -2,7 +2,6 @@
 
 namespace Alahaxe\HealthCheck\Contracts;
 
-use Alahaxe\HealthCheck\Contracts\CheckStatusInterface;
 use Symfony\Component\HttpFoundation\Response;
 
 class CheckStatus implements CheckStatusInterface
@@ -17,7 +16,7 @@ class CheckStatus implements CheckStatusInterface
         ?int $httpStatus = null
     ) {
         if ($httpStatus === null) {
-            $this->httpStatus = $status === self::STATUS_OK ? Response::HTTP_OK : Response::HTTP_SERVICE_UNAVAILABLE;
+            $this->httpStatus = $status === self::STATUS_OK ? 200 : ($status === self::STATUS_WARNING ? 206 : 503);
         } else {
             $this->httpStatus = $httpStatus;
         }
