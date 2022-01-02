@@ -62,7 +62,10 @@ class CheckStatus implements CheckStatusInterface
         return $this->attributeName;
     }
 
-    public function jsonSerialize()
+    /**
+     * @inheritDoc
+     */
+    public function jsonSerialize():mixed
     {
         return [
             'payload' => $this->payload,
