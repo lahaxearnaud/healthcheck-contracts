@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/lahaxearnaud/healthcheck-contracts/compare/v1.0.1...v1.0.2) (2022-01-05)
+
+
+### Bug Fixes
+
+* **deps:** Force release ([76917f0](https://github.com/lahaxearnaud/healthcheck-contracts/commit/76917f099b2fa320fbf945946afc6b8a505c4a00))
+
 ## [1.0.1](https://github.com/lahaxearnaud/healthcheck-contracts/compare/v1.0.0...v1.0.1) (2022-01-02)
 
 
