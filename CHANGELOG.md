@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/lahaxearnaud/healthcheck-contracts/compare/v1.0.2...v1.1.0) (2022-01-06)
+
+
+### Features
+
+* Keep 200 status for warning ([5ed8117](https://github.com/lahaxearnaud/healthcheck-contracts/commit/5ed8117ced97ef8b95d788cb959c487cd0fa07d6))
+
 ## [1.0.2](https://github.com/lahaxearnaud/healthcheck-contracts/compare/v1.0.1...v1.0.2) (2022-01-05)
 
 
