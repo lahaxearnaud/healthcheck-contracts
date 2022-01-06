@@ -16,7 +16,7 @@ class CheckStatus implements CheckStatusInterface
         ?int $httpStatus = null
     ) {
         if ($httpStatus === null) {
-            $this->httpStatus = $status === self::STATUS_OK ? 200 : ($status === self::STATUS_WARNING ? 206 : 503);
+            $this->httpStatus = $status === self::STATUS_OK ? 200 : 503;
         } else {
             $this->httpStatus = $httpStatus;
         }
